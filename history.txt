@@ -1,0 +1,10 @@
+# PARTE 1
+> docker image build . -t custom-caddy:2.5.1-alpine
+> docker images
+> docker container run \
+  --rm --name my-caddy \
+  -p 8080:80 \
+  -d custom-caddy:2.5.1-alpine
+> docker ps -a
+
+# OBS.: estes comandos foram executados no diretório corrente deste arquivo .txt
