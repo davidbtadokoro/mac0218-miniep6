@@ -1,4 +1,4 @@
 :80
 
-root * usr/src/pages
+root * /usr/src/pages
 file_server
